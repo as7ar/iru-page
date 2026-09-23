@@ -39,7 +39,7 @@ export default function HomePage() {
         <div id="meetups" className="grid gap-5 lg:grid-cols-[minmax(0,0.86fr)_minmax(0,1.14fr)]">
           <section className="rounded-[28px] border border-[#e9eff8] bg-white p-5 shadow-[0_12px_35px_rgba(71,112,170,0.07)] sm:p-7">
             <div className="mb-5 flex items-center justify-between">
-              <div><h2 className="text-[21px] font-bold tracking-[-0.04em]">모임 찾기</h2><p className="mt-1 text-sm text-[#96a1b6]">지금 내 주변에서 열리는 모임</p></div>
+              <div><h2 className="text-[21px] font-bold tracking-[-0.04em]">모임 찾기</h2><p className="mt-1 text-sm text-[#96a1b6]">지금 내 주변에서 열리는 모임</p></div><Link href="/meetups" className="text-sm font-semibold text-[#6c9bea] transition hover:text-[#438de9]">+ 더보기</Link>
               <button className="rounded-xl border border-[#edf1f7] p-2.5 text-[#7d8aa4] hover:bg-[#f7faff]" aria-label="필터 열기"><SlidersHorizontal size={18} /></button>
             </div>
             <div className="mb-5 flex items-center gap-2 rounded-2xl bg-[#f5f8fc] px-4 py-3.5 text-[#8e9ab0]"><Search size={18} /><span className="text-sm">관심 있는 모임을 검색해보세요</span></div>
